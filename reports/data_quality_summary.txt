@@ -1,0 +1,20 @@
+DATA QUALITY SUMMARY
+
+1. Total datasets loaded: 10
+
+2. Missing Values
+- fund_master.csv has some missing values.
+- nav_history.csv has no missing values.
+
+3. Duplicate Records
+- No duplicate rows found.
+
+4. Data Type Issues
+- Date column is stored as text and needs conversion.
+
+5. AMFI Code Validation
+- All scheme codes from fund_master are present in nav_history.
+
+6. Conclusion
+- Dataset quality is good.
+- Minor cleaning may be required before analysis.
